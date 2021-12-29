@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href=""><img src="images/logo.png"></a>
+            <div class="nav-links" id="navlink">
+                <i class="fa fa-times" onclick="close_menu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Courses</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="menu_click()"></i>
+        </nav>
+        <div class="welcome-text">
+            <h1>World's Biggest University</h1>
+            <p>Making website is now one of the easiest things in the world. You just need to learn HTML, CSS,<br>Javascript and you are good to go.</p>
+            <a href="">Visit Us to Know More</a>
+        </div>
+    </section>
+    <section class="courses">
+        <h1>Courses We Offer</h1>
+        <p>brief description about all the courses</p>
+        <div class="row">
+            <div class="course-item">
+                <h3>course 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+            </div>
+            <div class="course-item">
+                <h3>course 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+            </div>
+            <div class="course-item">
+                <h3>course 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+            </div>
+        </div>
+    </section>
+    <section>
+    </section>
+<script>
+    function menu_click(){
+        document.getElementById("navlink").style.right='0'
+    }
+    function close_menu(){
+        document.getElementById("navlink").style.right='-200px'
+    }
+</script>
+</body>
+</html>
