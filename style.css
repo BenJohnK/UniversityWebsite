@@ -407,3 +407,21 @@ h3{
         text-align: center;
     }
 }
+.blogs{
+    width: 80%;
+    margin: auto;
+    padding: 50px 0px;
+    border: 1px solid blue;
+}
+.blogs-row{
+    display: flex;
+    justify-content: space-between;
+}
+#blogs-col-1{
+    flex-basis: 58%;
+    border: 1px solid green;
+}
+#blogs-col-2{
+    flex-basis: 38%;
+    border: 1px solid red;
+}
